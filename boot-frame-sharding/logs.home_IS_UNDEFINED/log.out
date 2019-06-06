@@ -1,0 +1,218 @@
+2019-05-23 16:28:30.563 |-DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [89] -| Loaded expression factory via original TCCL
+2019-05-23 16:28:30.577 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [578] -| HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-05-23 16:28:30.578 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [579] -| HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-05-23 16:28:30.579 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [580] -| HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-05-23 16:28:30.580 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [581] -| HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-05-23 16:28:30.580 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [582] -| HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-05-23 16:28:30.772 |-INFO  [main] com.fsbay.frame.FrameApplication [50] -| Starting FrameApplication on DESKTOP-EMESP7Q with PID 15244 (E:\code\open\fsbay\boot-frame-sharding\target\classes started by John in E:\code\open\fsbay\boot-frame-sharding)
+2019-05-23 16:28:30.773 |-DEBUG [main] com.fsbay.frame.FrameApplication [53] -| Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-23 16:28:30.774 |-INFO  [main] com.fsbay.frame.FrameApplication [675] -| No active profile set, falling back to default profiles: default
+2019-05-23 16:28:32.377 |-DEBUG [main] org.apache.ibatis.logging.LogFactory [105] -| Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-05-23 16:28:32.383 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [437] -| Identified candidate component class: file [E:\code\open\fsbay\boot-frame-sharding\target\classes\com\fsbay\frame\mapper\UserMapper.class]
+2019-05-23 16:28:32.384 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [437] -| Identified candidate component class: file [E:\code\open\fsbay\boot-frame-sharding\target\classes\com\fsbay\frame\mapper\UsersMapper.class]
+2019-05-23 16:28:32.384 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Creating MapperFactoryBean with name 'userMapper' and 'com.fsbay.frame.mapper.UserMapper' mapperInterface
+2019-05-23 16:28:32.385 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-05-23 16:28:32.386 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Creating MapperFactoryBean with name 'usersMapper' and 'com.fsbay.frame.mapper.UsersMapper' mapperInterface
+2019-05-23 16:28:32.386 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Enabling autowire by type for MapperFactoryBean with name 'usersMapper'.
+2019-05-23 16:28:34.708 |-INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] -| Tomcat initialized with port(s): 8080 (http)
+2019-05-23 16:28:34.735 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol [173] -| Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-23 16:28:34.769 |-INFO  [main] org.apache.catalina.core.StandardService [173] -| Starting service [Tomcat]
+2019-05-23 16:28:34.770 |-INFO  [main] org.apache.catalina.core.StandardEngine [173] -| Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-23 16:28:35.001 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] -| Initializing Spring embedded WebApplicationContext
+2019-05-23 16:28:35.002 |-INFO  [main] org.springframework.web.context.ContextLoader [296] -| Root WebApplicationContext: initialization completed in 3826 ms
+2019-05-23 16:28:35.309 |-DEBUG [main] com.baomidou.mybatisplus.core.toolkit.GlobalConfigUtils [106] -| DeBug: MyBatis Plus Global configuration Initializing !
+2019-05-23 16:28:35.321 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+2019-05-23 16:28:35.322 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+2019-05-23 16:28:35.323 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+2019-05-23 16:28:35.324 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+2019-05-23 16:28:35.325 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+2019-05-23 16:28:35.326 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+2019-05-23 16:28:47.750 |-INFO  [main] com.alibaba.druid.pool.DruidDataSource [1002] -| {dataSource-1} inited
+2019-05-23 16:28:49.387 |-DEBUG [main] org.apache.ibatis.io.VFS [77] -| Using VFS adapter com.baomidou.mybatisplus.autoconfigure.SpringBootVFS
+2019-05-23 16:28:49.388 |-DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean [49] -| Scanned package: 'com.icesimba.shardingjdbc' for aliases
+2019-05-23 16:28:49.389 |-DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean [49] -| Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2019-05-23 16:28:49.415 |-DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean [49] -| Property 'mapperLocations' was not specified or no matching resources found
+2019-05-23 16:28:49.539 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.insert
+2019-05-23 16:28:49.546 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.delete
+2019-05-23 16:28:49.554 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.deleteByMap
+2019-05-23 16:28:49.598 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.deleteById
+2019-05-23 16:28:49.600 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.deleteBatchIds
+2019-05-23 16:28:49.606 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.update
+2019-05-23 16:28:49.609 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.updateById
+2019-05-23 16:28:49.618 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectById
+2019-05-23 16:28:49.621 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectBatchIds
+2019-05-23 16:28:49.624 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectByMap
+2019-05-23 16:28:49.626 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectOne
+2019-05-23 16:28:49.629 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectCount
+2019-05-23 16:28:49.633 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectMaps
+2019-05-23 16:28:49.638 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectMapsPage
+2019-05-23 16:28:49.642 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectObjs
+2019-05-23 16:28:49.650 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectList
+2019-05-23 16:28:49.653 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectPage
+2019-05-23 16:28:49.733 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.insert
+2019-05-23 16:28:49.741 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.delete
+2019-05-23 16:28:49.744 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.deleteByMap
+2019-05-23 16:28:49.746 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.deleteById
+2019-05-23 16:28:49.749 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.deleteBatchIds
+2019-05-23 16:28:49.775 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.update
+2019-05-23 16:28:49.778 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.updateById
+2019-05-23 16:28:49.779 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectById
+2019-05-23 16:28:49.783 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectBatchIds
+2019-05-23 16:28:49.785 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectByMap
+2019-05-23 16:28:49.790 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectOne
+2019-05-23 16:28:49.800 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectCount
+2019-05-23 16:28:49.804 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectMaps
+2019-05-23 16:28:49.808 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectMapsPage
+2019-05-23 16:28:49.812 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectObjs
+2019-05-23 16:28:49.818 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectList
+2019-05-23 16:28:49.821 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectPage
+2019-05-23 16:28:49.884 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers [60] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-05-23 16:28:49.885 |-DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [89] -| Loaded expression factory via original TCCL
+2019-05-23 16:28:49.887 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers [60] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-05-23 16:28:49.888 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [148] -| Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-05-23 16:28:49.889 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [180] -| Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-05-23 16:28:49.890 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [194] -| Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-05-23 16:28:49.892 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser [120] -| Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-05-23 16:28:49.892 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [53] -| Trying to load META-INF/validation.xml via user class loader
+2019-05-23 16:28:49.893 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [60] -| Trying to load META-INF/validation.xml via TCCL
+2019-05-23 16:28:49.893 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [66] -| Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-05-23 16:28:49.894 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser [127] -| No META-INF/validation.xml found. Using annotation based configuration only.
+2019-05-23 16:28:49.902 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [578] -| HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-05-23 16:28:49.902 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [579] -| HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-05-23 16:28:49.902 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [580] -| HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-05-23 16:28:49.903 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [581] -| HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-05-23 16:28:49.903 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [582] -| HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-05-23 16:28:50.155 |-INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] -| Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-23 16:28:50.550 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol [173] -| Starting ProtocolHandler ["http-nio-8080"]
+2019-05-23 16:28:50.586 |-INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] -| Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-23 16:28:50.591 |-INFO  [main] com.fsbay.frame.FrameApplication [59] -| Started FrameApplication in 20.571 seconds (JVM running for 21.208)
+2019-05-23 16:29:03.335 |-INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-23 16:29:03.336 |-INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet [524] -| Initializing Servlet 'dispatcherServlet'
+2019-05-23 16:29:03.349 |-INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet [546] -| Completed initialization in 13 ms
+2019-05-23 16:29:03.428 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils [49] -| Creating a new SqlSession
+2019-05-23 16:29:03.435 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils [49] -| SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f3c47da] was not registered for synchronization because synchronization is not active
+2019-05-23 16:29:03.500 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.transaction.SpringManagedTransaction [49] -| JDBC Connection [io.shardingsphere.shardingjdbc.jdbc.core.connection.ShardingConnection@33f0bdc0] will not be managed by Spring
+2019-05-23 16:29:03.526 |-DEBUG [http-nio-8080-exec-2] com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize [60] -|  JsqlParserCountOptimize sql=SELECT  guid,create_time,archived,version,password,username,default_user,avator_url,user_type,phone,nickname,description,image_count,template_count,mail,client_id,channel,open_id,device_id,last_login_time,istest  FROM Users
+2019-05-23 16:29:03.583 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==>  Preparing: SELECT COUNT(1) FROM Users 
+2019-05-23 16:29:03.621 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==> Parameters: 
+2019-05-23 16:29:04.902 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:04.902 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:04.903 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:04.903 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:04.910 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==>  Preparing: SELECT guid,create_time,archived,version,password,username,default_user,avator_url,user_type,phone,nickname,description,image_count,template_count,mail,client_id,channel,open_id,device_id,last_login_time,istest FROM Users LIMIT ?,? 
+2019-05-23 16:29:04.912 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==> Parameters: 0(Long), 5(Long)
+2019-05-23 16:29:05.093 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| <==      Total: 5
+2019-05-23 16:29:05.094 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:05.095 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:05.095 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:05.096 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 16:29:05.098 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils [49] -| Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f3c47da]
+2019-05-23 17:01:08.367 |-DEBUG [background-preinit] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [89] -| Loaded expression factory via original TCCL
+2019-05-23 17:01:08.433 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [578] -| HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-05-23 17:01:08.436 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [579] -| HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-05-23 17:01:08.438 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [580] -| HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-05-23 17:01:08.442 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [581] -| HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-05-23 17:01:08.443 |-DEBUG [background-preinit] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [582] -| HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-05-23 17:01:08.737 |-INFO  [main] com.fsbay.frame.FrameApplication [50] -| Starting FrameApplication on DESKTOP-EMESP7Q with PID 4156 (E:\code\open\fsbay\boot-frame-sharding\target\classes started by John in E:\code\open\fsbay\boot-frame-sharding)
+2019-05-23 17:01:08.739 |-DEBUG [main] com.fsbay.frame.FrameApplication [53] -| Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-23 17:01:08.749 |-INFO  [main] com.fsbay.frame.FrameApplication [675] -| No active profile set, falling back to default profiles: default
+2019-05-23 17:01:09.927 |-DEBUG [main] org.apache.ibatis.logging.LogFactory [105] -| Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-05-23 17:01:09.933 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [437] -| Identified candidate component class: file [E:\code\open\fsbay\boot-frame-sharding\target\classes\com\fsbay\frame\mapper\UserMapper.class]
+2019-05-23 17:01:09.933 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [437] -| Identified candidate component class: file [E:\code\open\fsbay\boot-frame-sharding\target\classes\com\fsbay\frame\mapper\UsersMapper.class]
+2019-05-23 17:01:09.935 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Creating MapperFactoryBean with name 'userMapper' and 'com.fsbay.frame.mapper.UserMapper' mapperInterface
+2019-05-23 17:01:09.936 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-05-23 17:01:09.937 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Creating MapperFactoryBean with name 'usersMapper' and 'com.fsbay.frame.mapper.UsersMapper' mapperInterface
+2019-05-23 17:01:09.937 |-DEBUG [main] org.mybatis.spring.mapper.ClassPathMapperScanner [49] -| Enabling autowire by type for MapperFactoryBean with name 'usersMapper'.
+2019-05-23 17:01:12.347 |-INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [90] -| Tomcat initialized with port(s): 8080 (http)
+2019-05-23 17:01:12.376 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol [173] -| Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-23 17:01:12.395 |-INFO  [main] org.apache.catalina.core.StandardService [173] -| Starting service [Tomcat]
+2019-05-23 17:01:12.396 |-INFO  [main] org.apache.catalina.core.StandardEngine [173] -| Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-23 17:01:12.623 |-INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] -| Initializing Spring embedded WebApplicationContext
+2019-05-23 17:01:12.623 |-INFO  [main] org.springframework.web.context.ContextLoader [296] -| Root WebApplicationContext: initialization completed in 3408 ms
+2019-05-23 17:01:12.930 |-DEBUG [main] com.baomidou.mybatisplus.core.toolkit.GlobalConfigUtils [106] -| DeBug: MyBatis Plus Global configuration Initializing !
+2019-05-23 17:01:12.942 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+2019-05-23 17:01:12.943 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+2019-05-23 17:01:12.944 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+2019-05-23 17:01:12.945 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+2019-05-23 17:01:12.946 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+2019-05-23 17:01:12.946 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+2019-05-23 17:01:26.268 |-INFO  [main] com.alibaba.druid.pool.DruidDataSource [1002] -| {dataSource-1} inited
+2019-05-23 17:01:27.906 |-DEBUG [main] org.apache.ibatis.io.VFS [77] -| Using VFS adapter com.baomidou.mybatisplus.autoconfigure.SpringBootVFS
+2019-05-23 17:01:27.908 |-DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean [49] -| Scanned package: 'com.icesimba.shardingjdbc' for aliases
+2019-05-23 17:01:27.910 |-DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean [49] -| Registered plugin: 'AbstractSqlParserHandler(sqlParserList=null, sqlParserFilter=null)'
+2019-05-23 17:01:27.940 |-DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean [49] -| Property 'mapperLocations' was not specified or no matching resources found
+2019-05-23 17:01:28.045 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.insert
+2019-05-23 17:01:28.052 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.delete
+2019-05-23 17:01:28.059 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.deleteByMap
+2019-05-23 17:01:28.101 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.deleteById
+2019-05-23 17:01:28.103 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.deleteBatchIds
+2019-05-23 17:01:28.108 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.update
+2019-05-23 17:01:28.111 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.updateById
+2019-05-23 17:01:28.112 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectById
+2019-05-23 17:01:28.114 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectBatchIds
+2019-05-23 17:01:28.116 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectByMap
+2019-05-23 17:01:28.119 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectOne
+2019-05-23 17:01:28.121 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectCount
+2019-05-23 17:01:28.124 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectMaps
+2019-05-23 17:01:28.128 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectMapsPage
+2019-05-23 17:01:28.132 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectObjs
+2019-05-23 17:01:28.135 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectList
+2019-05-23 17:01:28.139 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UserMapper.selectPage
+2019-05-23 17:01:28.220 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.insert
+2019-05-23 17:01:28.226 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.delete
+2019-05-23 17:01:28.235 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.deleteByMap
+2019-05-23 17:01:28.238 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.deleteById
+2019-05-23 17:01:28.241 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.deleteBatchIds
+2019-05-23 17:01:28.249 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.update
+2019-05-23 17:01:28.254 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.updateById
+2019-05-23 17:01:28.255 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectById
+2019-05-23 17:01:28.258 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectBatchIds
+2019-05-23 17:01:28.261 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectByMap
+2019-05-23 17:01:28.267 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectOne
+2019-05-23 17:01:28.300 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectCount
+2019-05-23 17:01:28.317 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectMaps
+2019-05-23 17:01:28.329 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectMapsPage
+2019-05-23 17:01:28.340 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectObjs
+2019-05-23 17:01:28.354 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectList
+2019-05-23 17:01:28.362 |-DEBUG [main] com.baomidou.mybatisplus.core.MybatisConfiguration [85] -| addMappedStatement: com.fsbay.frame.mapper.UsersMapper.selectPage
+2019-05-23 17:01:28.456 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers [60] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-05-23 17:01:28.457 |-DEBUG [main] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [89] -| Loaded expression factory via original TCCL
+2019-05-23 17:01:28.461 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.TraversableResolvers [60] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-05-23 17:01:28.463 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [148] -| Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-05-23 17:01:28.464 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [180] -| Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-05-23 17:01:28.465 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [194] -| Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-05-23 17:01:28.468 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser [120] -| Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-05-23 17:01:28.469 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [53] -| Trying to load META-INF/validation.xml via user class loader
+2019-05-23 17:01:28.470 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [60] -| Trying to load META-INF/validation.xml via TCCL
+2019-05-23 17:01:28.471 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper [66] -| Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-05-23 17:01:28.471 |-DEBUG [main] org.hibernate.validator.internal.xml.config.ValidationXmlParser [127] -| No META-INF/validation.xml found. Using annotation based configuration only.
+2019-05-23 17:01:28.484 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [578] -| HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-05-23 17:01:28.484 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [579] -| HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-05-23 17:01:28.485 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [580] -| HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-05-23 17:01:28.485 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [581] -| HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-05-23 17:01:28.486 |-DEBUG [main] org.hibernate.validator.internal.engine.ValidatorFactoryImpl [582] -| HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-05-23 17:01:28.736 |-INFO  [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] -| Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-23 17:01:29.126 |-INFO  [main] org.apache.coyote.http11.Http11NioProtocol [173] -| Starting ProtocolHandler ["http-nio-8080"]
+2019-05-23 17:01:29.165 |-INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [204] -| Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-23 17:01:29.171 |-INFO  [main] com.fsbay.frame.FrameApplication [59] -| Started FrameApplication in 21.506 seconds (JVM running for 22.151)
+2019-05-23 17:01:41.662 |-INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [173] -| Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-23 17:01:41.663 |-INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet [524] -| Initializing Servlet 'dispatcherServlet'
+2019-05-23 17:01:41.675 |-INFO  [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet [546] -| Completed initialization in 12 ms
+2019-05-23 17:01:41.747 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils [49] -| Creating a new SqlSession
+2019-05-23 17:01:41.752 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils [49] -| SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b00fa61] was not registered for synchronization because synchronization is not active
+2019-05-23 17:01:41.813 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.transaction.SpringManagedTransaction [49] -| JDBC Connection [io.shardingsphere.shardingjdbc.jdbc.core.connection.ShardingConnection@3b32ef5a] will not be managed by Spring
+2019-05-23 17:01:41.840 |-DEBUG [http-nio-8080-exec-2] com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize [60] -|  JsqlParserCountOptimize sql=SELECT  guid,create_time,archived,version,password,username,default_user,avator_url,user_type,phone,nickname,description,image_count,template_count,mail,client_id,channel,open_id,device_id,last_login_time,istest  FROM Users
+2019-05-23 17:01:41.898 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==>  Preparing: SELECT COUNT(1) FROM Users 
+2019-05-23 17:01:41.930 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==> Parameters: 
+2019-05-23 17:01:43.023 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.024 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.024 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.025 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.033 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==>  Preparing: SELECT guid,create_time,archived,version,password,username,default_user,avator_url,user_type,phone,nickname,description,image_count,template_count,mail,client_id,channel,open_id,device_id,last_login_time,istest FROM Users LIMIT ?,? 
+2019-05-23 17:01:43.034 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| ==> Parameters: 0(Long), 1000(Long)
+2019-05-23 17:01:43.239 |-DEBUG [http-nio-8080-exec-2] com.fsbay.frame.mapper.UsersMapper.selectPage [159] -| <==      Total: 32
+2019-05-23 17:01:43.240 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.241 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.242 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.242 |-DEBUG [http-nio-8080-exec-2] com.alibaba.druid.pool.PreparedStatementPool [129] -| stmt enter cache
+2019-05-23 17:01:43.244 |-DEBUG [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils [49] -| Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b00fa61]
